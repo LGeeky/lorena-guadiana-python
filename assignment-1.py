@@ -1,3 +1,5 @@
+from datetime import date
+
 #Section 1: Variables and Types
 #a variable is a name that stores a piece of data
 #it's like a labeled container where we can choose the label, and Python remembers 
@@ -5,7 +7,7 @@
 
 name = "Student"
 age = 45
-height = "5.4"
+height = 5.4
 
 print(name,type(name))
 print(age,type(age))
@@ -64,7 +66,7 @@ print()
 print(border)
 print(f"{title:^45}")   # centered in 45characters
 print(border)
-print(f"{'Hometown:':<12}{hometown}")
-print(f"{'Hobby:':<12}{hobby}")
-print(f"{'Fun fact:':<12}{fun_fact}")
-print(f"{'Age:':<12}{age}")
+print(f"{'Hometown:':<18}{hometown}")
+print(f"{'Hobby:':<18}{hobby}")
+print(f"{'Fun fact:':<18}{fun_fact}")
+print(f"{'Age:':<18}{age}")
