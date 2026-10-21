@@ -32,4 +32,4 @@ elif day == "saturday":
         print("Sorry, I don't recognize that time. Try: morning, afternoon, or evening.")
 
 else:
-    print("Sorry, I don't recognize that day. Try: Monday, Tuesday, Saturday.")
+    print("Sorry, I don't recognize that day. Try: sunday, tuesday, saturday.")
