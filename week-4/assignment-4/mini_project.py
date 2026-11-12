@@ -25,11 +25,12 @@ for student in students:
         top_name = student["name"]
 
 # Calculating the class average
-# I added each score to total in the loop, then divided by len(students) after the loop ended
+# I added each score to the total in the loop
 total = 0
 for student in students:
     total += student["score"]
-
+    
+# then divided by len(students) after the loop ended
 average = total / len(students)
 
 # Listing the unique subjects
