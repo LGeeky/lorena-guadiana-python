@@ -4,7 +4,7 @@ from datetime import datetime
 
 input_path = os.path.join("..", "data", "expenses.csv")
 
-# 1. Making surefile exists before opening it
+# 1. Making sure file exists before opening it
 if not os.path.exists(input_path):
     print("Error: ../data/expenses.csv not found.")
 else:
